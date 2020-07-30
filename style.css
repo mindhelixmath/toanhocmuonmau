@@ -1,0 +1,64 @@
+body {
+    background-color: cyan;
+    margin: 0px 50px 0px 50px;
+}
+
+.vo {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    border-radius: 20%;
+    border: 2px solid black;
+    background-color: salmon;
+}
+
+.color {
+    color: red;
+    text-align: center;
+}
+
+.con {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: wheat;
+    border-radius: 100%;
+    margin: 50px;
+    border: red dotted 3px;
+
+}
+
+.vo:hover {
+    background-color: black;
+    border: white dotted 3px;
+}
+
+.con:hover {
+    transform: scale(1.2);
+}
+
+#tim:hover{
+    box-shadow: yellow 5px 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px;
+}
+
+.button{
+    background-color: yellowgreen;
+    color: blue;
+    text-align: center;
+    width: 25%;
+    padding: 10px 0px 10px 0px;
+    vertical-align: middle;
+    font-weight: 700;
+}
+
+.button:hover{
+    background-color: blue;
+    color: yellowgreen;
+}
